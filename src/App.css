@@ -127,19 +127,34 @@ body {
 
 .section-title {
   margin: auto;
-  max-width: 300px;
+  width: 300px;
   padding-bottom: 5px;
   padding-top: 5px;
   margin-bottom: 30px;
   border-bottom: 2px solid var(--blue-ribbon-700);
   border-top: 2px solid var(--blue-ribbon-700);
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title:hover {
+  width: 50%;
+  color: var(--blue-ribbon-700);
+  border-bottom: 2px solid var(--blue-ribbon-600);
+  border-top: 2px solid var(--blue-ribbon-600);
 }
 
 .section-subtitle {
   margin: auto;
-  max-width: 300px;
+  width: 300px;
   padding-bottom: 5px;
   padding-top: 5px;
   margin-bottom: 30px;
   border-bottom: 2px solid var(--blue-ribbon-700);
+  transition: all 0.3s ease-in-out;
+}
+
+.section-subtitle:hover {
+  width: 50%;
+  color: var(--blue-ribbon-700);
+  border-bottom: 2px solid var(--blue-ribbon-600);
 }

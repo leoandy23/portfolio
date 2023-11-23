@@ -1,10 +1,11 @@
 import React from "react";
 import fotoleo from "../../assets/images/foto-leoandy.jpeg";
 import cvleo from "../../assets/files/CV_Andy_Otavalo.pdf";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../../lib/icons/FontAwesome";
-import IconFlutter from "../../assets/images/icon-flutter.png";
+import SkillsIcons from "../pure/SkillsIcons";
+
 const About = () => {
   return (
     <div className="section" id="about">
@@ -53,67 +54,7 @@ const About = () => {
         <div class="my-3">
           <div className="text-center">
             <h3 className="fw-bold section-subtitle">My skills</h3>
-          </div>
-          <div className="d-flex shadow rounded-3 py-4 px-3 flex-wrap justify-content-between">
-            <span className="d-flex flex-column align-items-center">
-              <FontAwesomeIcon
-                icon={["fab", "js-square"]}
-                style={{ color: "#f0db4f", fontSize: "2.5rem" }}
-              />
-              <small>Java Script</small>
-            </span>
-
-            <span className="d-flex flex-column align-items-center">
-              <FontAwesomeIcon
-                icon={["fab", "bootstrap"]}
-                style={{ color: "#7952b3", fontSize: "2.5rem" }}
-              />
-              <small>Bootstrap</small>
-            </span>
-
-            <span className="d-flex flex-column align-items-center">
-              <FontAwesomeIcon
-                icon={["fab", "react"]}
-                style={{ color: "#00ddd0", fontSize: "2.5rem" }}
-              />
-              <small>React JS</small>
-            </span>
-
-            <span className="d-flex flex-column align-items-center">
-              <FontAwesomeIcon
-                icon={["fab", "git-alt"]}
-                style={{ color: "#f34f29", fontSize: "2.5rem" }}
-              />
-              <small>Git</small>
-            </span>
-
-            <span className="d-flex flex-column align-items-center">
-              <FontAwesomeIcon
-                icon={["fab", "python"]}
-                style={{ color: "#3776ab", fontSize: "2.5rem" }}
-              />
-              <small>Python</small>
-            </span>
-
-            <span className="d-flex flex-column align-items-center">
-              <img
-                src={IconFlutter}
-                alt="icon-flutter"
-                style={{
-                  width: "2.5rem",
-                  height: "2.5rem",
-                }}
-              />
-              <small>Flutter</small>
-            </span>
-
-            <span className="d-flex flex-column align-items-center">
-              <FontAwesomeIcon
-                icon={["fab", "laravel"]}
-                style={{ color: "red", fontSize: "2.5rem" }}
-              />
-              <small>Laravel</small>
-            </span>
+            <SkillsIcons></SkillsIcons>
           </div>
         </div>
       </div>
