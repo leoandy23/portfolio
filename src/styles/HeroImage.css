@@ -1,0 +1,54 @@
+/* En tu archivo Hero.css */
+.hero-container {
+  height: 100vh;
+  background-image: url("../../public/images/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.3em;
+}
+
+.hero-btns {
+  display: flex;
+}
+
+.hero-btns .btn {
+  margin: 10px;
+}
+
+/* Movil */
+@media screen and (max-width: 768px) {
+  .hero-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-btns .btn {
+    margin: 5px;
+  }
+}
