@@ -9,11 +9,15 @@ const HeroImage = () => {
           <h1>Welcome to my portfolio</h1>
           <p>Discover everything I have to offer you</p>
           <div className="hero-btns">
-            <a className="btn btn-outline-primary" href="#about">
+            <a
+              className="btn-custom btn-custom-outline-primary shadow-custom"
+              href="#about">
               {" "}
               About me
             </a>
-            <a className="btn btn-primary" href="#contact">
+            <a
+              className="btn-custom btn-custom-primary shadow-custom"
+              href="#contact">
               Contact me
             </a>
           </div>

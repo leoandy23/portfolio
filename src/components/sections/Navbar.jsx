@@ -1,6 +1,7 @@
 // En tu componente Navbar.jsx
 import React, { useState } from "react";
-import "../../styles/Navbar.css"; // Asegúrate de tener la ruta correcta
+import "../../styles/Navbar.css";
+import logo from "../../assets/images/logo-light.png";
 
 const Navbar = () => {
   const [isMenuVisible, setMenuVisibility] = useState(false);
@@ -13,19 +14,19 @@ const Navbar = () => {
     setMenuVisibility(false);
   };
   return (
-    <nav className="navbar">
+    <nav className="custom-navbar">
       <div className="navbar-container">
         <div className="brand-menu">
           <div className="brand">
             <a href="#home" onClick={closeMenu}>
-              Leoandy
+              <img src={logo} alt="logo" />
             </a>
           </div>
           <div className="menu-icon" onClick={toggleMenu}>
             &#9776;
           </div>
         </div>
-        <ul className={`nav-list ${isMenuVisible ? "show" : ""}`}>
+        <ul className={`nav-list m-0 p-0 ${isMenuVisible ? "show" : ""}`}>
           <li className="nav-item">
             <a href="#home" onClick={closeMenu}>
               Home

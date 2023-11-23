@@ -1,7 +1,7 @@
 /* En tu archivo Hero.css */
 .hero-container {
   height: 100vh;
-  background-image: url("../../public/images/hero-image.jpg");
+  background-image: url("../assets/images/hero-image.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -50,5 +50,13 @@
 
   .hero-btns .btn {
     margin: 5px;
+  }
+
+  .hero-container {
+    height: auto;
+  }
+
+  .hero-content {
+    padding: 20px;
   }
 }

@@ -46,27 +46,31 @@ body {
   scroll-behavior: smooth;
 }
 
-.bg-primary {
+/* Cambios en los nombres de las clases para evitar conflictos con Bootstrap */
+
+/* Fondo */
+.bg-custom-primary {
   background-color: var(--blue-ribbon-950);
 }
 
-.bg-secondary {
+.bg-custom-secondary {
   background-color: var(--mirage-950);
 }
 
-.bg-iron {
+.bg-custom-iron {
   background-color: var(--iron-950);
 }
 
-.bg-light {
+.bg-custom-light {
   background-color: var(--blue-ribbon-50);
 }
 
-.bg-white {
+.bg-custom-white {
   background-color: #fff;
 }
 
-.btn {
+/* Botones */
+.btn-custom {
   margin: 10px auto;
   min-width: 200px;
   display: block;
@@ -75,33 +79,67 @@ body {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
-.btn-primary {
+.btn-custom-primary {
   background-color: var(--blue-ribbon-800);
   color: #fff;
 }
 
-.btn-primary:hover {
-  background-color: var(--blue-ribbon-200);
-  color: var(--blue-ribbon-800);
-  font-weight: bold;
-}
-
-.btn-outline-primary {
+.btn-custom-primary:hover {
   background-color: var(--blue-ribbon-50);
   color: var(--blue-ribbon-800);
-  border: 1px solid var(--blue-ribbon-800);
+  font-weight: bold;
 }
 
-.btn-outline-primary:hover {
+.btn-custom-outline-primary {
+  background-color: var(--blue-ribbon-50);
+  color: var(--blue-ribbon-800);
+  border: 2px solid var(--blue-ribbon-800);
+}
+
+.btn-custom-outline-primary:hover {
   background-color: var(--blue-ribbon-800);
   color: #fff;
   font-weight: bold;
 }
 
-.container {
+/* Contenedor */
+.container-custom {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
+}
+
+.shadow-custom {
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.section {
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.section-title {
+  margin: auto;
+  max-width: 300px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--blue-ribbon-700);
+  border-top: 2px solid var(--blue-ribbon-700);
+}
+
+.section-subtitle {
+  margin: auto;
+  max-width: 300px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--blue-ribbon-700);
 }

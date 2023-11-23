@@ -1,11 +1,6 @@
 /* Navbar.css */
 
-.navbar {
-  /* background: linear-gradient(
-    45deg,
-    var(--blue-ribbon-950),
-    var(--blue-ribbon-400)
-  ); */
+.custom-navbar {
   position: sticky;
   top: 0;
   background-color: var(--blue-ribbon-950);
@@ -15,43 +10,43 @@
   box-shadow: 0px 2px 10px var(--iron-300);
 }
 
-.navbar-container {
+.custom-navbar .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
 }
 
-.brand {
+.custom-navbar .brand {
   font-size: 1.5rem;
   margin-left: 10px;
   font-weight: bold;
 }
 
-.brand a {
+.custom-navbar .brand a {
   text-decoration: none;
   color: var(--blue-ribbon-200);
 }
 
-.menu-icon {
+.custom-navbar .menu-icon {
   font-size: 1.5rem;
   cursor: pointer;
   margin-right: 10px;
   display: none;
 }
 
-.nav-list {
+.custom-navbar .nav-list {
   list-style: none;
   display: flex;
   transition: all 3s ease-in-out;
 }
 
-.nav-item {
+.custom-navbar .nav-item {
   padding: 0;
   margin: 0;
 }
 
-.nav-item a {
+.custom-navbar .nav-item a {
   text-decoration: none;
   color: #fff;
   padding: 20px 20px;
@@ -60,47 +55,49 @@
   font-weight: bold;
   transition: all 0.8s ease-in-out;
 }
-.nav-item a:hover {
+
+.custom-navbar .nav-item a:hover {
   background-color: var(--blue-ribbon-200);
   color: var(--blue-ribbon-950);
 }
 
 @media only screen and (max-width: 768px) {
   /* Estilos específicos para pantallas más pequeñas */
-  .navbar-container {
+  .custom-navbar .navbar-container {
     display: flex;
     flex-direction: column;
     align-items: stretch;
   }
 
-  .brand {
+  .custom-navbar .brand {
     order: 1;
   }
 
-  .brand-menu {
+  .custom-navbar .brand-menu {
     height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--iron-300);
   }
-  .menu-icon {
+
+  .custom-navbar .menu-icon {
     display: block;
     order: 2;
   }
 
-  .nav-list {
+  .custom-navbar .nav-list {
     display: none;
     order: 3;
     width: 100%;
   }
 
-  .nav-list.show {
+  .custom-navbar .nav-list.show {
     display: flex;
     flex-direction: column;
   }
 
-  .nav-item {
+  .custom-navbar .nav-item {
     text-align: center;
     border-bottom: 1px solid var(--iron-300);
   }
