@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3975a233.css",
-    "main.js": "/portfolio/static/js/main.2a6ae005.js",
+    "main.css": "/portfolio/static/css/main.6bbbacdb.css",
+    "main.js": "/portfolio/static/js/main.460b0ecf.js",
     "static/js/787.2dcca737.chunk.js": "/portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/hero-image.jpg": "/portfolio/static/media/hero-image.2e8663b3084dab7cd274.jpg",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/foto-leoandy.jpeg": "/portfolio/static/media/foto-leoandy.17dd37e54c8d806b6f37.jpeg",
+    "static/media/CV_Andy_Otavalo.pdf": "/portfolio/static/media/CV_Andy_Otavalo.65c4f6e7920196db48a6.pdf",
     "index.html": "/portfolio/index.html",
-    "main.3975a233.css.map": "/portfolio/static/css/main.3975a233.css.map",
-    "main.2a6ae005.js.map": "/portfolio/static/js/main.2a6ae005.js.map",
+    "main.6bbbacdb.css.map": "/portfolio/static/css/main.6bbbacdb.css.map",
+    "main.460b0ecf.js.map": "/portfolio/static/js/main.460b0ecf.js.map",
     "787.2dcca737.chunk.js.map": "/portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3975a233.css",
-    "static/js/main.2a6ae005.js"
+    "static/css/main.6bbbacdb.css",
+    "static/js/main.460b0ecf.js"
   ]
 }
