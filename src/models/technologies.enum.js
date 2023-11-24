@@ -44,6 +44,16 @@ const TECHS = {
     name: "python",
     color: "#3776ab",
   },
+  FLUTTER: {
+    type: "fab",
+    name: "flutter",
+    color: "#02569b",
+  },
+  GITHUB: {
+    type: "fab",
+    name: "github",
+    color: "#181717",
+  },
 };
 
 export default TECHS;

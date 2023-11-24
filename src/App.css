@@ -33,6 +33,17 @@
   --iron-800: #676767;
   --iron-900: #545454;
   --iron-950: #363636;
+  --persian-green-50: #effefb;
+  --persian-green-100: #c7fff5;
+  --persian-green-200: #90ffeb;
+  --persian-green-300: #51f7e1;
+  --persian-green-400: #1de4cf;
+  --persian-green-500: #04c8b6;
+  --persian-green-600: #00a398;
+  --persian-green-700: #058079;
+  --persian-green-800: #0a6561;
+  --persian-green-900: #0d5451;
+  --persian-green-950: #003333;
 }
 
 * {
@@ -149,11 +160,28 @@ body::-webkit-scrollbar-track {
   font-weight: bold;
 }
 
+.btn-custom-outline-success {
+  background-color: var(--persian-green-50);
+  color: var(--persian-green-800);
+  border: 1px solid var(--persian-green-500);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-custom-outline-success:hover {
+  background-color: var(--persian-green-500);
+  color: #fff;
+  font-weight: bold;
+}
+
 /* Contenedor */
 .container-custom {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
+}
+
+.elevation {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .shadow-custom {

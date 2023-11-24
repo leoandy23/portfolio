@@ -1,10 +1,12 @@
 import React from "react";
 import TECHS from "../../models/technologies.enum";
+import "../../styles/Works.css";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import iconFlutter from "../../assets/images/icon-flutter.png";
 
 // Importamos con required el directorio de images
 const images = require.context("../../assets/images/", true);
@@ -25,30 +27,28 @@ const WorkCard = ({ work, index }) => {
             className={`row align-items-center ${
               index % 2 === 0 ? "flex-row" : "flex-row-reverse"
             }`}>
-            <div className="col-12 col-md-6 ">
+            <div className="col-12 col-md-6 p-5">
               <Slider
                 {...sliderSettings}
                 className="my-3"
                 style={{
-                  width: "80%",
+                  width: "100%",
                   margin: "auto",
                 }}>
                 {work.image.map((image, index) => (
-                  <div key={index} className="d-flex justify-content-center">
-                    <a
-                      href={work.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      key={index}>
+                  <div
+                    key={index}
+                    className="d-flex justify-content-center p-1">
+                    <div className="bg-white rounded rounded-3 elevation">
                       <img
                         src={images(`./${image}`)}
                         alt={work.title}
-                        className="img-fluid rounded rounded-4 shadow"
+                        className="img-fluid rounded rounded-3 "
                         style={{
                           maxHeight: "300px",
                         }}
                       />
-                    </a>
+                    </div>
                   </div>
                 ))}
               </Slider>
@@ -60,25 +60,45 @@ const WorkCard = ({ work, index }) => {
               <p className="fs-6 text-justify">{work.description}</p>
               <div className="text-center">
                 <h6 className="fw-bold">Tech Used</h6>
-                {work.technologies.map((tech, index) => (
-                  <FontAwesomeIcon
-                    key={index}
-                    icon={[tech.type, tech.name]}
-                    style={{
-                      color: tech.color,
-                      fontSize: "2.5rem",
-                      margin: "0.5rem",
-                    }}
-                  />
-                ))}
+                <div className="d-flex align-items-center justify-content-evenly w-75 mx-auto">
+                  {work.technologies.map((tech, index) =>
+                    tech.name !== "flutter" ? (
+                      <FontAwesomeIcon
+                        key={index}
+                        icon={[tech.type, tech.name]}
+                        style={{
+                          color: tech.color,
+                          fontSize: "2.5rem",
+                        }}
+                      />
+                    ) : (
+                      <img
+                        key={index}
+                        src={iconFlutter}
+                        alt="icon-flutter"
+                        style={{
+                          width: "2.5rem",
+                          height: "2.5rem",
+                        }}
+                      />
+                    )
+                  )}
+                </div>
               </div>
               <div className="text-center mt-3">
                 <a
                   href={work.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary">
+                  className="btn btn-custom-outline-success shadow">
                   View Project
+                  <FontAwesomeIcon
+                    icon={["fas", "eye"]}
+                    className="ms-2"
+                    style={{
+                      fontSize: "1rem",
+                    }}
+                  />
                 </a>
               </div>
             </div>
