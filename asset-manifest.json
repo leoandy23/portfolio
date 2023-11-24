@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6b93861c.css",
-    "main.js": "/portfolio/static/js/main.f85ad33b.js",
+    "main.css": "/portfolio/static/css/main.2af8738a.css",
+    "main.js": "/portfolio/static/js/main.f0b4ef81.js",
     "static/js/787.2dcca737.chunk.js": "/portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/hero-image.jpg": "/portfolio/static/media/hero-image.2e8663b3084dab7cd274.jpg",
+    "static/media/work-1.png": "/portfolio/static/media/work-1.c0aee0a1006ed51254e8.png",
+    "static/media/work-2.png": "/portfolio/static/media/work-2.32f302818573b1df9bad.png",
+    "static/media/work-4.jpg": "/portfolio/static/media/work-4.fec07f89d28eb5d1f0f9.jpg",
+    "static/media/work-4_2.jpg": "/portfolio/static/media/work-4_2.3c6d78f59d9179e616b4.jpg",
+    "static/media/work-4_1.jpg": "/portfolio/static/media/work-4_1.2cd65f682abb212b3d45.jpg",
+    "static/media/work-3.png": "/portfolio/static/media/work-3.65f1c482cee2d17e5596.png",
     "static/media/foto-leoandy.jpeg": "/portfolio/static/media/foto-leoandy.17dd37e54c8d806b6f37.jpeg",
     "static/media/CV_Andy_Otavalo.pdf": "/portfolio/static/media/CV_Andy_Otavalo.65c4f6e7920196db48a6.pdf",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.6b93861c.css.map": "/portfolio/static/css/main.6b93861c.css.map",
-    "main.f85ad33b.js.map": "/portfolio/static/js/main.f85ad33b.js.map",
+    "main.2af8738a.css.map": "/portfolio/static/css/main.2af8738a.css.map",
+    "main.f0b4ef81.js.map": "/portfolio/static/js/main.f0b4ef81.js.map",
     "787.2dcca737.chunk.js.map": "/portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b93861c.css",
-    "static/js/main.f85ad33b.js"
+    "static/css/main.2af8738a.css",
+    "static/js/main.f0b4ef81.js"
   ]
 }
