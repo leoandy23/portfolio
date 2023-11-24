@@ -55,13 +55,19 @@ const SkillsIcons = () => {
         />
         <small className="fw-bold">Flutter</small>
       </span>
-
       <span className="d-flex flex-column align-items-center m-2">
         <FontAwesomeIcon
           icon={["fab", "laravel"]}
-          style={{ color: "red", fontSize: "2.5rem" }}
+          style={{ color: "#FF0000", fontSize: "2.5rem" }}
         />
         <small className="fw-bold">Laravel</small>
+      </span>
+      <span className="d-flex flex-column align-items-center m-2">
+        <FontAwesomeIcon
+          icon={["fa", "database"]}
+          style={{ color: "#0000FF", fontSize: "2.5rem" }}
+        />
+        <small className="fw-bold">My SQL</small>
       </span>
     </div>
   );

@@ -1,0 +1,20 @@
+.photo-user {
+  padding: 5px;
+  background: linear-gradient(
+    45deg,
+    var(--blue-ribbon-950),
+    var(--blue-ribbon-700),
+    var(--blue-ribbon-200)
+  );
+  transition: all 1s ease-in-out;
+}
+
+.photo-user:hover {
+  transform: scale(1.05);
+  background: linear-gradient(
+    45deg,
+    var(--blue-ribbon-200),
+    var(--blue-ribbon-700),
+    var(--blue-ribbon-950)
+  );
+}

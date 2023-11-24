@@ -1,6 +1,7 @@
 /* Navbar.css */
 
 .custom-navbar {
+  z-index: 999;
   position: sticky;
   top: 0;
   background-color: var(--blue-ribbon-950);

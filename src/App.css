@@ -46,6 +46,39 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Estilos para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--iron-300); /* Color del thumb (barra deslizante) */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color de la pista (fondo detrás del thumb) */
+}
+
+/* Estilos para navegadores Firefox */
+/* scrollbar-color es una propiedad específica de Firefox */
+/* scrollbar-width es la propiedad que determina el ancho del scrollbar */
+/* También puedes usar 'auto' en lugar de 'thin' para un scrollbar más delgado */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--iron-300) #f1f1f1;
+}
+
+/* Estilos para el thumb y la track en Firefox */
+/* Usa el mismo color que en los estilos de WebKit */
+body::-webkit-scrollbar-thumb {
+  background-color: var(--iron-300);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
 /* Cambios en los nombres de las clases para evitar conflictos con Bootstrap */
 
 /* Fondo */
@@ -69,6 +102,15 @@ body {
   background-color: #fff;
 }
 
+.bg-custom-gradient {
+  background: linear-gradient(
+    45deg,
+    var(--iron-300),
+    var(--iron-200),
+    var(--iron-100)
+  );
+}
+
 /* Botones */
 .btn-custom {
   margin: 10px auto;
@@ -85,6 +127,7 @@ body {
 .btn-custom-primary {
   background-color: var(--blue-ribbon-800);
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-custom-primary:hover {
@@ -97,6 +140,7 @@ body {
   background-color: var(--blue-ribbon-50);
   color: var(--blue-ribbon-800);
   border: 2px solid var(--blue-ribbon-800);
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-custom-outline-primary:hover {
@@ -113,11 +157,7 @@ body {
 }
 
 .shadow-custom {
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
-}
-
-.text-justify {
-  text-align: justify;
+  box-shadow: 0.25rem 0.25rem 2rem rgba(0, 0, 0, 0.7);
 }
 
 .section {
@@ -157,4 +197,13 @@ body {
   width: 50%;
   color: var(--blue-ribbon-700);
   border-bottom: 2px solid var(--blue-ribbon-600);
+}
+
+.slick-arrow::before {
+  border-radius: 50%;
+  background-color: var(--blue-ribbon-950) !important;
+}
+
+.text-justify {
+  text-align: justify;
 }
