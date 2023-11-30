@@ -21,7 +21,7 @@ const Contact = () => {
                 <span className="fw-bold text-dark">Whatsapp</span>
                 <FontAwesomeIcon
                   icon={["fab", "whatsapp"]}
-                  style={{ color: "#00ff00", fontSize: "2.5rem" }}
+                  style={{ color: "#25D366", fontSize: "2.5rem" }}
                 />
                 <small>
                   <i>+593 999 011 921</i>

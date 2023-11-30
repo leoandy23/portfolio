@@ -122,6 +122,10 @@ body::-webkit-scrollbar-track {
   );
 }
 
+.bg-custom-dark {
+  background-color: var(--mirage-950);
+}
+
 /* Botones */
 .btn-custom {
   margin: 10px auto;
