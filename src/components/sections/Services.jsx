@@ -4,40 +4,40 @@ import ServiceCard from "../pure/ServiceCard";
 const Services = () => {
   const services = [
     {
+      title: "Full Stack Development",
+      icon: "code",
+      description:
+        "Development of complete web applications using modern technologies like React, NextJS, NestJS and Laravel for robust and scalable solutions.",
+    },
+    {
+      title: "AI Solutions & Chatbots",
+      icon: "robot",
+      description:
+        "Implementation of artificial intelligence solutions including chatbots, RAG systems and intelligent conversational assistants using LangChain and OpenAI API.",
+    },
+    {
+      title: "Cloud Infrastructure",
+      icon: "cloud",
+      description:
+        "Implementation of cloud solutions using Google Cloud, Azure, and AWS, with infrastructure as code through Terraform for reproducible environments.",
+    },
+    {
+      title: "Backend API Development",
+      icon: "server",
+      description:
+        "Creation of robust RESTful APIs using NestJS and Python for chatbot systems, recruitment platforms with matching algorithms and ETL processes.",
+    },
+    {
       title: "Mobile App Development",
-      icon: "mobile-screen", // You can change this to the icon of your choice
+      icon: "mobile-screen",
       description:
-        "Development of native and cross-platform mobile applications for iOS and Android.",
+        "Development of cross-platform mobile applications using Flutter for iOS and Android with seamless user experiences.",
     },
     {
-      title: "Web Development",
-      icon: "laptop-code", // You can change this to the icon of your choice
+      title: "Geospatial Applications",
+      icon: "map",
       description:
-        "Design and development of modern and responsive websites using the latest technologies.",
-    },
-    {
-      title: "REST API",
-      icon: "server", // You can change this to the icon of your choice
-      description:
-        "Creation of RESTful API using Flask and Python to build efficient and scalable web services.",
-    },
-    {
-      title: "Database Management",
-      icon: "database", // You can change this to the icon of your choice
-      description:
-        "Design, implementation, and optimization of databases to store and retrieve data efficiently.",
-    },
-    {
-      title: "Machine Learning",
-      icon: "robot", // You can change this to the icon of your choice
-      description:
-        "Implementation of machine learning algorithms and models for data analysis and predictions.",
-    },
-    {
-      title: "Data Science",
-      icon: "laptop-file", // You can change this to the icon of your choice
-      description:
-        "Exploration, analysis, and visualization of data to extract insights and support decision-making.",
+        "Processing and analysis of geographic data to generate social, technical, and economic indicators using Python and PostGIS.",
     },
   ];
 
@@ -45,7 +45,10 @@ const Services = () => {
     <div className="section bg-custom-gradient" id="services">
       <div className="container my-5">
         <div className="text-center">
-          <h2 className="fw-bold section-title">What do I offer you?</h2>
+          <h2 className="fw-bold section-title">Services & Expertise</h2>
+          <p className="lead mb-5">
+            Leveraging cutting-edge technologies to deliver innovative solutions
+          </p>
 
           <div className="row align-items-start justify-content-center">
             {services.map((service, index) => (

@@ -19,27 +19,33 @@ const About = () => {
             <div className="text-center text-lg-end w-100">
               <h3 className="fw-bold">Leonel Otavalo</h3>
               <small>
-                <b>STUDENT & PROGRAMMER</b>
+                <b>SOFTWARE ENGINEER & FULL STACK DEVELOPER</b>
               </small>
               <p className="text-justify">
-                I am Leonel Otavalo, a 7th semester Software Engineering
-                student, focused mainly on front-end development. With a year of
-                experience in the full stack space, I have cultivated solid
-                skills in creating captivating user experiences.
+                Software Engineer with experience in full stack development,
+                artificial intelligence, and backend process automation. I have
+                worked with technologies such as Python, NestJS, React, and
+                Flutter, as well as modern tools for building APIs and
+                distributed systems.
               </p>
               <p className="text-justify">
-                I also have an intermediate level in back-end development,
-                allowing me to approach projects holistically. My approach
-                focuses on fusing visual aesthetics with functionality, creating
-                efficient and attractive solutions.
+                I have hands-on experience implementing cloud solutions using
+                Google Cloud, Azure, and AWS, in addition to creating
+                reproducible infrastructure through Terraform. I am
+                characterized as proactive, self-taught, and team-oriented, with
+                a strong motivation to tackle technical challenges that generate
+                real impact in society.
               </p>
-              <div className="text-center text-lg-start">
+              <div className="text-center text-lg-start mt-3">
                 <a
                   href={cvleo}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline-primary shadow">
+                  className="btn btn-outline-primary shadow me-2">
                   View CV
+                </a>
+                <a href="#contact" className="btn btn-primary shadow">
+                  Contact Me
                 </a>
               </div>
             </div>
