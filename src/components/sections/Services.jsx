@@ -4,40 +4,40 @@ import ServiceCard from "../pure/ServiceCard";
 const Services = () => {
   const services = [
     {
-      title: "Full Stack Development",
-      icon: "code",
-      description:
-        "Development of complete web applications using modern technologies like React, NextJS, NestJS and Laravel for robust and scalable solutions.",
-    },
-    {
-      title: "AI Solutions & Chatbots",
-      icon: "robot",
-      description:
-        "Implementation of artificial intelligence solutions including chatbots, RAG systems and intelligent conversational assistants using LangChain and OpenAI API.",
-    },
-    {
-      title: "Cloud Infrastructure",
-      icon: "cloud",
-      description:
-        "Implementation of cloud solutions using Google Cloud, Azure, and AWS, with infrastructure as code through Terraform for reproducible environments.",
-    },
-    {
       title: "Backend API Development",
       icon: "server",
       description:
-        "Creation of robust RESTful APIs using NestJS and Python for chatbot systems, recruitment platforms with matching algorithms and ETL processes.",
+        "Robust REST APIs using NestJS and Python (FastAPI/Flask). Advanced authentication, database optimization, microservices architecture, and scalable system design for production environments.",
     },
     {
-      title: "Mobile App Development",
-      icon: "mobile-screen",
+      title: "AI/ML Solutions",
+      icon: "brain",
       description:
-        "Development of cross-platform mobile applications using Flutter for iOS and Android with seamless user experiences.",
+        "LLM-powered chatbots, RAG systems, semantic search, embedding-based retrieval, and intelligent recommendation engines using LangChain and OpenAI. End-to-end AI solution design.",
     },
     {
-      title: "Geospatial Applications",
+      title: "Data Engineering & ETL",
+      icon: "wind",
+      description:
+        "Apache Airflow pipelines, PySpark jobs, data transformation, ETL orchestration, vectorization of unstructured data, and complex data workflows at scale.",
+    },
+    {
+      title: "Cloud Infrastructure & DevOps",
+      icon: "cloud",
+      description:
+        "Multi-cloud deployment (GCP, Azure, AWS), Infrastructure as Code (Terraform), Docker containerization, Kubernetes orchestration, and database provisioning.",
+    },
+    {
+      title: "Full-Stack Development",
+      icon: "code",
+      description:
+        "End-to-end web applications combining modern frontends with production-grade backends. React, Next.js, and custom full-stack solutions.",
+    },
+    {
+      title: "Geospatial & Analytics",
       icon: "map",
       description:
-        "Processing and analysis of geographic data to generate social, technical, and economic indicators using Python and PostGIS.",
+        "Geographic data processing (PostGIS), spatial analysis, custom indicators generation, data visualization with Leaflet, and geospatial intelligence.",
     },
   ];
 

@@ -19,22 +19,19 @@ const About = () => {
             <div className="text-center text-lg-end w-100">
               <h3 className="fw-bold">Leonel Otavalo</h3>
               <small>
-                <b>SOFTWARE ENGINEER & FULL STACK DEVELOPER</b>
+                <b>BACKEND ENGINEER & AI ENGINEER</b>
               </small>
               <p className="text-justify">
-                Software Engineer with experience in full stack development,
-                artificial intelligence, and backend process automation. I have
-                worked with technologies such as Python, NestJS, React, and
-                Flutter, as well as modern tools for building APIs and
-                distributed systems.
+                Software Engineer specialized in Backend Engineering and Artificial Intelligence. 
+                I design and implement scalable REST APIs using NestJS and Python (FastAPI/Flask), 
+                develop AI-powered solutions using LangChain and LLMs (OpenAI, Bedrock), 
+                and orchestrate data pipelines with tools like Apache Airflow.
               </p>
               <p className="text-justify">
-                I have hands-on experience implementing cloud solutions using
-                Google Cloud, Azure, and AWS, in addition to creating
-                reproducible infrastructure through Terraform. I am
-                characterized as proactive, self-taught, and team-oriented, with
-                a strong motivation to tackle technical challenges that generate
-                real impact in society.
+                I have hands-on experience deploying solutions across multiple cloud providers 
+                (Google Cloud Platform, Microsoft Azure, Amazon AWS) using Infrastructure as Code 
+                with Terraform and Docker containerization. Strong technical depth, problem-solving 
+                skills, and ability to translate complex requirements into robust, production-ready systems.
               </p>
               <div className="text-center text-lg-start mt-3">
                 <a
