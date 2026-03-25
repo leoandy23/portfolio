@@ -92,7 +92,7 @@ const TECHS = {
 
   // Databases
   POSTGRESQL: {
-    type: "fab",
+    type: "fas",
     name: "database",
     color: "#336791",
   },
